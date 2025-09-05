@@ -5,7 +5,6 @@ def clear_screen():
     """Clear the terminal screen"""
     os.system("cls" if os.name == "nt" else "clear")
 
-
 def print_grid(grid, n):
     """Print Sudoku grid neatly"""
     for i in range(n):
@@ -94,3 +93,4 @@ if __name__ == "__main__":
             clear_screen()
             print("👋 Thanks for playing!")
             break
+
